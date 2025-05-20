@@ -4,7 +4,8 @@ Got it — here’s a clean, boring, single-unit README.md you can directly copy
 
 # Bandit-Style CTF in Docker
 
-This project provides a Bandit-like Capture The Flag (CTF) environment using Docker and SSH. Each user (level) has a specific Linux challenge to solve. Passwords are stored in creative ways, and each level hints at common Linux commands, scripting, or permission usage.
+a Bandit-like Capture The Flag (CTF) environment using Docker and SSH. Each user (level) has a specific Linux challenge to solve. Passwords are stored in creative ways, and each level hints at common Linux commands, scripting, or permission usage.
+## The Dockerfile is attached 
 
 ## How to Build and Run
 
