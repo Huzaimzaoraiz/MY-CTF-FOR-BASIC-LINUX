@@ -1,10 +1,8 @@
 # MY-CTF-FOR-BASIC-LINUX
 
-Got it — here’s a clean, boring, single-unit README.md you can directly copy-paste into your repo:
+# CTF in Docker
 
-# Bandit-Style CTF in Docker
-
-a Bandit-like Capture The Flag (CTF) environment using Docker and SSH. Each user (level) has a specific Linux challenge to solve. Passwords are stored in creative ways, and each level hints at common Linux commands, scripting, or permission usage.
+The Flag (CTF) environment using Docker and SSH. Each user (level) has a specific Linux challenge to solve. Passwords are stored in creative ways, and each level hints at common Linux commands, scripting, or permission usage.
 ## The Dockerfile is attached 
 [Dockerfile](https://github.com/Huzaimzaoraiz/MY-CTF-FOR-BASIC-LINUX/blob/main/Dockerfile)
 ## How to Build and Run
@@ -52,6 +50,3 @@ Notes
 	•	Each level user has their own /home/levelX folder
 	•	Challenges are based on Linux command-line fundamentals
 
-This setup is meant for learning purposes only. Do not expose to the internet as-is.
-
-You can drop this directly into your repo as `README.md`. If you want me to bundle this with your `Dockerfile` into a zip or GitHub-ready layout, I can do that too.
