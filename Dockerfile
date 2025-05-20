@@ -1,18 +1,18 @@
 FROM fedora:latest
 
-# Install necessary packages
+# packages
 RUN dnf update -y && \
     dnf install -y openssh-server sudo coreutils bash && \
     dnf clean all
 
-# Setup SSHD
+# SSHD
 RUN mkdir -p /var/run/sshd && \
     ssh-keygen -A && \
     echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config && \
     echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config && \
     echo 'root:root' | chpasswd
 
-# Create users and set passwords
+# passwords
 RUN for i in $(seq 1 8); do \
     useradd -m -s /bin/bash level$i; \
     echo "level$i:pass$i" | chpasswd; \
